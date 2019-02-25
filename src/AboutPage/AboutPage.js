@@ -7,18 +7,18 @@ function AboutPage() {
                 <div className="u-center-text u-margin-bottom-big">
                     {/* above classname/div here for styling purposes; a 'utility class' */}
                     <h2 className="heading-secondary">
-                        A few of my favorite projects
+                        A little about me
                 </h2>
                 </div>
                 <div className="row">
                     <div className="col-1-of-2">
-                        <h3 className="heading-tertiery u-margin-bottom-small ">Youre going to fall in love with nature</h3>
+                        <h3 className="heading-tertiery u-margin-bottom-small ">Who is Grant Wilhelm</h3>
                         <p className="paragraph">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis quos molestiae repellendus similique amet atque doloremque quis id suscipit, nisi, ipsum, cupiditate at delectus numquam exercitationem cum. Voluptate, esse animi!
+                           Thats me! I am an Air Force veteran who discovered a love for programming while working on the Lockheed Martin F-35 fighter jet.  I love learning and expanding my knowledge about coding and the technology industry as a whole.
                     </p>
-                        <h3 className="heading-tertiery u-margin-bottom-small">Live adventurous like you never have before </h3>
+                        <h3 className="heading-tertiery u-margin-bottom-small">Adventure is my middle name</h3>
                         <p className="paragraph">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt enim, voluptatem expedita voluptates quia ipsum impedit unde odio neque.
+                            When not inside learning about code I enjoy getting outside and enjoying beautiful Utah!  From skiing, hiking, camping, biking, running, swimming and everything in between you can usually find be somewhere outside on the weekends!
                     </p>
 
                         <a href="#" className="btn-text">Learn more > </a>
