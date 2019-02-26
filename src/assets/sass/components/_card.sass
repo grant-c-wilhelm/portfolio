@@ -33,15 +33,15 @@
     //front card styling
     &__picture
         background-size: cover
-        height: 23rem
+        height: 24rem
+        width: 105%
+        transform: translateX(-1rem)
         background-blend-mode: screen //SUPER COOL!!!
-        -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%)
-        clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%)
+        
         
         &--1
-            background-image: linear-gradient(to left bottom, 
-            rgba($color-secondary-light, 0.801), 
-            rgba($color-secondary-dark, 0.801)),url(../img/nat-5.jpg)
+            background-image: url(../img/skiLocalSC.png)
+            background-position: center bottom
 
 
         &--2
@@ -49,10 +49,6 @@
             rgba($color-secondary-light, 0.801), 
             rgba($color-secondary-dark, 0.801)),url(../img/nat-5.jpg)
 
-        &--3
-            background-image: linear-gradient(to left bottom, 
-            rgba($color-secondary-light, 0.801),
-            rgba($color-secondary-dark, 0.801)),url(../img/nat-5.jpg)
 
     &__heading
         font-size: 2.8rem
@@ -61,15 +57,20 @@
         text-align: right
         color: $color-white
         position: absolute
-        top: 8rem
-        right: 2rem
-        width: 55%
+        top: 14.5rem
+        right: 1rem
+        width: 95%
     &__heading--span
         padding: .5rem 1rem
         -webkit-box-decoration-break: clone
-        box-decoration-break: clone
+        box-decoration-break: clone 
 
         &--1
+            background-image: linear-gradient(to right bottom, 
+            rgba($color-secondary-light, 0.801), 
+            rgba($color-secondary-dark, 0.801))
+    
+        &--2
             background-image: linear-gradient(to right bottom, 
             rgba($color-secondary-light, 0.801), 
             rgba($color-secondary-dark, 0.801))
@@ -85,4 +86,25 @@
                 padding: 1rem
 
                 &:not(:last-child)
-                    border-bottom: 1px solid $color-grey-light-2
+                    border-bottom: 1px solid $color-grey-light-2 
+    //front card styling
+    &__cta
+        position: absolute
+        text-align: center
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+        width: 90%
+
+        .card__price-box
+            text-align: center
+            color: $color-white
+            margin-bottom: 8rem
+        
+            .card__price-only
+                font-size: 1.5rem
+                text-transform: uppercase
+
+            .card__price-value
+                font-size: 6rem
+                font-weight: 100

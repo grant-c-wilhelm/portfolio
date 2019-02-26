@@ -3,7 +3,7 @@ import Header from './header/Header';
 import HeaderSubGrid from './grid-layout/HeaderSubGrid';
 import AboutPage from './AboutPage/AboutPage';
 import Feature from './features/Feature';
-import Tours from './tours/Tours';
+import Projects from './projects/Projects';
 
 const MainView = () => {
     return (
@@ -11,7 +11,7 @@ const MainView = () => {
             <Header />
             <AboutPage />
             <Feature />
-            <Tours />
+            <Projects />
 
 
         </div>
