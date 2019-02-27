@@ -1,8 +1,13 @@
 import React from 'react'
-
+import image from '../assets/img/Snow-motion.mp4'
 function Projects() {
     return (
         <section className="section-tours">
+            <div className="bg-video">
+                <video className="bg-video__content" autoPlay muted loop>
+                    <source src={image} type='video/mp4'/>
+                </video>
+            </div>
             <div className="u-center-text u-margin-bottom-big" >
                 <h2 className="heading-secondary">
                     Some of my Projects
@@ -72,8 +77,8 @@ function Projects() {
 
 
             </div>
-            <div className="u-center-text u-margin-bottom-big" >
-                <a href="#" className="btn">Check out my Github</a>
+            <div className="u-center-text u-margin-top-big" >
+                <a href="https://github.com/grant-c-wilhelm" className="btn btn-color">Check out my Github</a>
             </div>
         </section>
     )

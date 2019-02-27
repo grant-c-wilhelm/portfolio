@@ -28,11 +28,11 @@ function AboutPage() {
 
                     <div className="col-1-of-2">
                         <div className="composition">
-                            <img src={require("../assets/img/nat-1-large.jpg")} alt="Photo 1" className="photo photo-1" />
+                            <img src={require("../assets/img/portfoliopic1.jpg")} alt="Photo 1" className="photo photo-1" />
 
-                            <img src={require("../assets/img/nat-2-large.jpg")} alt="Photo 2" className="photo photo-2" />
+                            <img src={require("../assets/img/portfoliopic2.jpg")} alt="Photo 2" className="photo photo-2" />
 
-                            <img src={require("../assets/img/nat-3-large.jpg")} alt="Photo 3" className="photo photo-3" />
+                            <img src={require("../assets/img/HeadShot.jpg")} alt="Photo 3" className="photo photo-3" />
 
                         </div>
                     </div>
