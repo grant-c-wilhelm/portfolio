@@ -8,19 +8,32 @@
         z-index: 10
         transition: all .2s
         outline-offset: .5rem
+        @include tablet-port
+            float: left
+            position: relative
+            width: 33.333333333%
+            box-shadow: 0 1.5rem 3rem rgba($color-black, .25) 
 
         &.photo-1
             left: 0
             top: -2rem
             width: 40%
-            //transform: scale(1)
+            transform: scale(1)
+            @include tablet-port
+                top: 0
         &.photo-2
             right: 0
             top: 2rem
+            @include tablet-port
+                top: -2rem
+                right: 2rem
         &.photo-3
             left: 20%
             top: 10rem
             transform: scale(.8)
+            @include tablet-port
+                top: -10rem
+                left: 10rem
 
         &:hover:not(:last-child)
             outline: 1rem solid $color-primary

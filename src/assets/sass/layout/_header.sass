@@ -11,10 +11,17 @@
         position: absolute
         top: 6rem
         left: 6rem 
+        @include tablet-port
+            top: 2rem
+            left: 2rem
     & .logo
         height: 12.5rem
         animation: moveInRight 1s ease-out 1s backwards
         //anim-func, anim-dur, time-func, anim-delay=args fill-mode
+        @include tablet-port
+            height: 10rem
+        @include phone
+            height: 8rem
 
     //HEADER TEXT
     & .text-box

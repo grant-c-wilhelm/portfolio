@@ -15,7 +15,7 @@ export default class Skills extends Component {
                             <i className="feature-box_icon icon-basic-world"> <FaReact /> </i>
                             <h3 className="heading-tertiary u-margin-bottom-small">REACT</h3>
                             <p className="feature-box_text">
-                                I really enjoy using React as well as how it has improve my Vanilla JS
+                                I really enjoy using React! The ability to componentize pieces of my wepapps helps make solving large projects simpler.  How do you eat a whale; one bite at a time!
                             </p>
                         </div>
                     </div>
@@ -24,7 +24,7 @@ export default class Skills extends Component {
                             <i className="feature-box_icon icon-basic-world"> <FaHtml5 /> </i>
                             <h3 className="heading-tertiary u-margin-bottom-small">HTML5</h3>
                             <p className="feature-box_text">
-                                I integrate HTML5 in my React using JSX
+                                Before React/JSX, HTML5 was what I used.  I still use the basic principles of HTML5 in React to describe what the UI should look like.
                             </p>
                         </div>
                     </div>
@@ -33,7 +33,7 @@ export default class Skills extends Component {
                             <i className="feature-box_icon icon-basic-world"> <TiSocialGithub /> </i>
                             <h3 className="heading-tertiary u-margin-bottom-small">GitHub</h3>
                             <p className="feature-box_text">
-                                I really enjoy using React as well as how it has improve my Vanilla JS
+                                I always am using GitHub to save points in my projects.  I also enjoy using it when collaborating with others.
                             </p>
                         </div>
                     </div>
