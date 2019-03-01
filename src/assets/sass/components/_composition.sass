@@ -22,7 +22,7 @@
             top: 10rem
             transform: scale(.8)
 
-        &:hover
+        &:hover:not(:last-child)
             outline: 1rem solid $color-primary
             tranform: scale(3.00)
             box-shadow: 0 2.5rem 4rem rgba($color-black, .6)
@@ -30,3 +30,11 @@
 
             &:not(:hover)
             transform: scale(1.1)
+
+        &:hover
+            outline: 1rem solid $color-primary
+            tranform: scale(3.00)
+            box-shadow: 0 2.5rem 4rem rgba($color-black, .6)
+            z-index: 20
+            &:not(:hover)
+            transform: scale(0.85)

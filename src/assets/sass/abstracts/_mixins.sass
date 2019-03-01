@@ -5,5 +5,10 @@
         clear: both
     //because the above is a psuedo elemnt we must declare the content property. clear: both clears both the left and the right float.
 
-@mixin mediaqueryMedium
+
+    //Sizes: Phone, TabletPort, TabletLand, Desktop, BigDesktop
+@mixin phoneSize
+    @media (max-width: 600px) 
+        @content
     
+//Breakpoint: Phone, TabletPort, 
