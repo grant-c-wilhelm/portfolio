@@ -1,4 +1,5 @@
 @import "abstracts/variables"
+@import "abstracts/mixins"
 //PROJECT BASES
 * *::after *::before
     margin: 0
@@ -8,6 +9,14 @@
 html
     font-size: 62.5%
     //1rem is the root font size so here we are setting the rem (root) font size for the file..its a global def so not really typography
+    @include tablet-land
+        font-size: 56%
+    @include tablet-port
+        font-size: 50%
+    @include phone
+        font-size: 30%
+    @include big-desktop
+        font-size: 75%
 
 body
     box-sizing: border-box

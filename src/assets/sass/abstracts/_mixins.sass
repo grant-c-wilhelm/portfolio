@@ -3,12 +3,18 @@
         content: ""
         display: table
         clear: both
-    //because the above is a psuedo elemnt we must declare the content property. clear: both clears both the left and the right float.
+//because the above is a psuedo elemnt we must declare the content property. clear: both clears both the left and the right float.
 
-
-    //Sizes: Phone, TabletPort, TabletLand, Desktop, BigDesktop
-@mixin phoneSize
-    @media (max-width: 600px) 
+//MEDIA QUERY MANAGMENT: 1:Manage fonts/Generallayouts 2: Pagelayouts 3:individual compnts
+@mixin phone
+    @media (max-width: 37em)
         @content
-    
-//Breakpoint: Phone, TabletPort, 
+@mixin tablet-port
+    @media (max-width: 56.25em)
+        @content
+@mixin tablet-land
+    @media (max-width: 75em)
+        @content
+@mixin big-desktop
+    @media (min-width: 112.5em)
+        @content
