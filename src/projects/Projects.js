@@ -2,6 +2,8 @@ import React from 'react'
 import ScrollableAnchor from "react-scrollable-anchor";
 
 import image from '../assets/img/Snow-motion.mp4'
+import video from '../assets/img/candideThovex.mp4'
+
 
 function Projects() {
     return (
@@ -40,7 +42,7 @@ function Projects() {
                         <div className="card__side card__side--back card__side--back--1">
                             <div className="card__cta">
                                 <div className="card__price-box">
-                                    <p className="card__price-only">Ski Local was a group project.  I was the lead front-end developer.  I used React and SASS as my primary tools to create the user experience. The purpose of the webapp was to provide guests coming to Utah to ski a platform for finding ski resort guides without involving the ski resort. This saves money for visitors and puts a little extra cash in the locals pockets'.  </p>
+                                    <p className="card__price-only">Ski Local was a group project.  I was the lead front end developer.  I used React and SASS as my primary tools to create the user experience. The purpose of the web app was to provide skiers coming to Utah a platform for finding ski resort guides without involving the ski resort. This saves money for visitors and puts a little extra cash in the locals pockets.  </p>
 
                                 </div>
                                 <a href="https://github.com/kensnow/GroupProject" className="btn btn-white">The Git Repository!</a>
@@ -68,7 +70,7 @@ function Projects() {
                         <div className="card__side card__side--back card__side--back--1">
                             <div className="card__cta">
                                 <div className="card__price-box">
-                                    <p className="card__price-only">I was the only developer that worked on this project. This is a full stack project.  I used React, SASS, MongoDB / Compass, Axios, React-Router-DOM, Node and Express. The purpose of this app was to porvide a platform to connect local companies to local coffee companies.  Once connected local companies could order brewed coffee from the local roasters!  I really enjoyed this project, coffee is a passion of mine! I am still currently working on this project!</p>
+                                    <p className="card__price-only">I was the only developer that worked on this project. This is a full stack project.  I used React, SASS, MongoDB / Compass, Axios, React-Router-DOM, Node and Express. The purpose of this app was to provide a platform to connect local companies to local coffee companies.  Once connected local companies can order brewed coffee from the local roasters!  I really enjoyed this project, coffee is a love of mine! I am still currently working on this project!</p>
 
                                 </div>
                                 <a href="https://github.com/grant-c-wilhelm/Assignments/tree/master/Personal/coffee-connect" className="btn btn-white"> The Git Repository!</a>

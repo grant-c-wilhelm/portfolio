@@ -24,9 +24,9 @@ function AboutPage() {
                 Adventure is my middle name
               </h3>
               <p className="paragraph">
-                When not inside learning about code I enjoy getting outside and
+                When not inside learning about code I like getting outside and
                 enjoying beautiful Utah! From skiing, hiking, camping, biking,
-                running, swimming and everything in between you can usually find
+                running, swimming and everything in between, you can usually find
                 be somewhere outside on the weekends!
               </p>
 
